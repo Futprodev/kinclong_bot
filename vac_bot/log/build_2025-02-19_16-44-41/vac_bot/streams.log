@@ -1,0 +1,16 @@
+[0.012s] Invoking command in '/home/maul/simulation_learning/vac_bot/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/simulation_learning/vac_bot/build/vac_bot -- -j8 -l8
+[0.033s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.238s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.319s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.319s]   ament_package_xml() package name 'vac_bot' in '/package.xml' does not match
+[0.319s]   current PROJECT_NAME 'articubot_one'.  You must call project() with the
+[0.320s]   same package name before.
+[0.320s] Call Stack (most recent call first):
+[0.320s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.320s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.320s] 
+[0.320s] [0m
+[0.320s] -- Configuring incomplete, errors occurred!
+[0.322s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.324s] Invoked command in '/home/maul/simulation_learning/vac_bot/build/vac_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/simulation_learning/vac_bot/build/vac_bot -- -j8 -l8
