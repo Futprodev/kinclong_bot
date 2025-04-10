@@ -4,7 +4,7 @@
     <joint name="laser_joint" type="fixed">
         <parent link="chassis"/>
         <child link="laser_frame"/>
-        <origin xyz="0.122 0 0.212" rpy="0 0 0"/>
+        <origin xyz="0.24 0 0.09" rpy="0 0 0"/>
     </joint>
 
     <link name="laser_frame">
@@ -24,14 +24,12 @@
         </xacro:inertial_cylinder>
     </link>
 
-
-
     <gazebo reference="laser_frame">
         <material>Gazebo/Black</material>
 
         <sensor name="laser" type="gpu_lidar">
             <pose> 0 0 0 0 0 0 </pose>
-            <visualize>false</visualize>
+            <visualize>true</visualize>
             <update_rate>10</update_rate>
             <lidar>
                 <scan>

@@ -18,7 +18,7 @@ def generate_launch_description():
     )
 
     default_world = os.path.join(
-        get_package_share_directory(package_name), 
+        get_package_share_directory(package_name),
         'worlds', 
         'empty.world'
     )
@@ -28,13 +28,13 @@ def generate_launch_description():
     world_arg = DeclareLaunchArgument(
         'world',
         default_value=default_world,
-        description='world to load'
+        description='World to load'
     )
 
     gz_sim = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py'
-                )]), launch_arguments={'gz_args': ['-r -v4', world], 'on_exit_shutdown': 'true'}.items()
+                )]), launch_arguments={'gz_args': ['-r -v4 ', world], 'on_exit_shutdown': 'true'}.items() #dont't forget the trailing space after -v4
     )
 
     spawn_entity = Node(package='ros_gz_sim', executable='create',
@@ -42,10 +42,24 @@ def generate_launch_description():
                                    '-name','my_bot',
                                     '-z', '0.5'],
                         output='screen')
+
+    bridge_params = os.path.join(get_package_share_directory(package_name),'config','gz_bridge.yaml')
     
+
+    ros_gz_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            '--ros-args',
+            '-p',
+            f'config_file:={bridge_params}',
+        ]
+    )
+
     return LaunchDescription([
+        rsp,
         world_arg,
         gz_sim,
-        rsp,
-        spawn_entity
+        spawn_entity,
+        ros_gz_bridge
     ])

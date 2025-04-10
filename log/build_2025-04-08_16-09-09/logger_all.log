@@ -1,0 +1,166 @@
+[1.035s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.036s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74a507795fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74a507795820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74a507795820>>, mixin_verb=('build',))
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.499s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maul/ws_kinclong_sim'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'ignore'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'ignore_ament_install'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['colcon_pkg']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'colcon_pkg'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['colcon_meta']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'colcon_meta'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['ros']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'ros'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['cmake', 'python']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'cmake'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'python'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extensions ['python_setup_py']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot) by extension 'python_setup_py'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/build) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/build) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/build) ignored
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/install) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/install) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/install) ignored
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/log) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/log) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/log) ignored
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['ignore', 'ignore_ament_install']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'ignore'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'ignore_ament_install'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['colcon_pkg']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'colcon_meta'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['ros']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'ros'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['cmake', 'python']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'cmake'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'python'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extensions ['python_setup_py']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src) by extension 'python_setup_py'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extension 'ignore'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extension 'ignore_ament_install'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extensions ['colcon_pkg']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extension 'colcon_pkg'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extensions ['colcon_meta']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extension 'colcon_meta'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extensions ['ros']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(vac_bot/src/vac_bot) by extension 'ros'
+[1.749s] DEBUG:colcon.colcon_core.package_identification:Package 'vac_bot/src/vac_bot' with type 'ros.ament_cmake' and name 'vac_bot'
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.092s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/usr/local/include/mavlink' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.093s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/usr/local/share/mavlink/cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.100s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/maul/ws_kinclong_sim/install
+[2.103s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/maul/simulation_learning/articubot_one/install
+[2.106s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/maul/simulation_learning/sim_ws/install
+[2.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/jazzy
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_target' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_clean_first' from command line to 'False'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'cmake_force_configure' from command line to 'False'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'ament_cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'vac_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.647s] DEBUG:colcon.colcon_core.verb:Building package 'vac_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maul/ws_kinclong_sim/build/vac_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maul/ws_kinclong_sim/install/vac_bot', 'merge_install': False, 'path': '/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot', 'symlink_install': False, 'test_result_base': None}
+[2.648s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.655s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot' with build type 'ament_cmake'
+[2.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot'
+[2.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.673s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_sim/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/vac_bot -- -j8 -l8
+[3.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_sim/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/vac_bot -- -j8 -l8
+[3.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_sim/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/vac_bot
+[3.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vac_bot)
+[3.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_sim/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/vac_bot
+[3.542s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot' for CMake module files
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot' for CMake config files
+[3.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('vac_bot', 'cmake_prefix_path')
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.ps1'
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.sh'
+[3.607s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/bin'
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/lib/pkgconfig/vac_bot.pc'
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/lib/python3.12/site-packages'
+[3.612s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/bin'
+[3.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.dsv'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.sh'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.bash'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.zsh'
+[3.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_sim/install/vac_bot/share/colcon-core/packages/vac_bot)
+[3.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vac_bot)
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot' for CMake module files
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot' for CMake config files
+[3.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('vac_bot', 'cmake_prefix_path')
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.ps1'
+[3.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/hook/cmake_prefix_path.sh'
+[3.902s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/bin'
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/lib/pkgconfig/vac_bot.pc'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/lib/python3.12/site-packages'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_sim/install/vac_bot/bin'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.ps1'
+[3.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.sh'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.bash'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.zsh'
+[3.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_sim/install/vac_bot/share/colcon-core/packages/vac_bot)
+[3.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.928s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.984s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.114s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_sim/install/local_setup.ps1'
+[4.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maul/ws_kinclong_sim/install/_local_setup_util_ps1.py'
+[4.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_sim/install/setup.ps1'
+[4.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_sim/install/local_setup.sh'
+[4.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maul/ws_kinclong_sim/install/_local_setup_util_sh.py'
+[4.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_sim/install/setup.sh'
+[4.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_sim/install/local_setup.bash'
+[4.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_sim/install/setup.bash'
+[4.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_sim/install/local_setup.zsh'
+[4.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_sim/install/setup.zsh'
