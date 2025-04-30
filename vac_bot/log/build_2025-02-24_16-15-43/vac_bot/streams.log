@@ -1,0 +1,43 @@
+[0.052s] Invoking command in '/home/maul/simulation_learning/vac_bot/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/simulation_learning/vac_bot/src/vac_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maul/simulation_learning/vac_bot/install/vac_bot
+[0.112s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.034s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.479s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.488s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.489s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.490s] -- Added test 'lint_cmake' to check CMake code style
+[1.492s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.497s] -- Added test 'xmllint' to check XML markup files
+[1.502s] -- Configuring done (1.4s)
+[1.515s] -- Generating done (0.0s)
+[1.520s] -- Build files have been written to: /home/maul/simulation_learning/vac_bot/build/vac_bot
+[1.530s] Invoked command in '/home/maul/simulation_learning/vac_bot/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/simulation_learning/vac_bot/src/vac_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maul/simulation_learning/vac_bot/install/vac_bot
+[1.537s] Invoking command in '/home/maul/simulation_learning/vac_bot/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/simulation_learning/vac_bot/build/vac_bot -- -j8 -l8
+[1.694s] Invoked command in '/home/maul/simulation_learning/vac_bot/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/simulation_learning/vac_bot/build/vac_bot -- -j8 -l8
+[1.819s] Invoking command in '/home/maul/simulation_learning/vac_bot/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/simulation_learning/vac_bot/build/vac_bot
+[1.854s] -- Install configuration: ""
+[1.855s] -- Execute custom install script
+[1.857s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/config/empty.yaml
+[1.858s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/config/view_bot.rviz
+[1.859s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/description/inertial_macros.xacro
+[1.860s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/description/robot.urdf.xacro
+[1.861s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/description/robot_core.xacro
+[1.862s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/launch/launch_sim.launch.py
+[1.862s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/launch/rsp.launch.py
+[1.864s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/worlds/empty.world
+[1.865s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/ament_index/resource_index/package_run_dependencies/vac_bot
+[1.865s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/ament_index/resource_index/parent_prefix_path/vac_bot
+[1.866s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/environment/ament_prefix_path.sh
+[1.867s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/environment/ament_prefix_path.dsv
+[1.868s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/environment/path.sh
+[1.869s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/environment/path.dsv
+[1.870s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/local_setup.bash
+[1.871s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/local_setup.sh
+[1.871s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/local_setup.zsh
+[1.872s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/local_setup.dsv
+[1.873s] -- Symlinking: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/package.dsv
+[1.912s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/ament_index/resource_index/packages/vac_bot
+[1.913s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/cmake/vac_botConfig.cmake
+[1.914s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/cmake/vac_botConfig-version.cmake
+[1.915s] -- Up-to-date symlink: /home/maul/simulation_learning/vac_bot/install/vac_bot/share/vac_bot/package.xml
+[1.923s] Invoked command in '/home/maul/simulation_learning/vac_bot/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/simulation_learning/vac_bot/build/vac_bot
