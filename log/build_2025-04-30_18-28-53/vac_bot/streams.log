@@ -1,0 +1,55 @@
+[0.019s] Invoking command in '/home/maul/ws_kinclong_sim/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/vac_bot -- -j8 -l8
+[0.327s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.951s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.250s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.266s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.266s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.266s] -- Added test 'lint_cmake' to check CMake code style
+[1.267s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.269s] -- Added test 'xmllint' to check XML markup files
+[1.270s] -- Configuring done (1.2s)
+[1.374s] -- Generating done (0.1s)
+[1.377s] -- Build files have been written to: /home/maul/ws_kinclong_sim/build/vac_bot
+[1.397s] Invoked command in '/home/maul/ws_kinclong_sim/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/vac_bot -- -j8 -l8
+[1.454s] Invoking command in '/home/maul/ws_kinclong_sim/build/vac_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/vac_bot
+[1.461s] -- Install configuration: ""
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/view_bot.rviz
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/empty.yaml
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/mapper_params_online_async.yaml
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/gz_bridge.yaml
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/lidar.xacro
+[1.461s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/robot.urdf.xacro
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/robot_core.xacro
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/inertial_macros.xacro
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/gazebo_control.xacro
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/rsp.launch.py
+[1.462s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/launch_sim.launch.py
+[1.462s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models
+[1.473s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room
+[1.473s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/room.sdf
+[1.473s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/model.config
+[1.473s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/meshes
+[1.473s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/meshes/room.dae
+[1.473s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/obstacle.world
+[1.474s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/room.world
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/empty.world
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/package_run_dependencies/vac_bot
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/parent_prefix_path/vac_bot
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/environment/ament_prefix_path.sh
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/environment/ament_prefix_path.dsv
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/environment/path.sh
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/environment/path.dsv
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/local_setup.bash
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/local_setup.sh
+[1.474s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/local_setup.zsh
+[1.475s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/local_setup.dsv
+[1.475s] -- Installing: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.dsv
+[1.475s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/packages/vac_bot
+[1.475s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/cmake/vac_botConfig.cmake
+[1.475s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/cmake/vac_botConfig-version.cmake
+[1.475s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/package.xml
+[1.476s] Invoked command in '/home/maul/ws_kinclong_sim/build/vac_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/vac_bot

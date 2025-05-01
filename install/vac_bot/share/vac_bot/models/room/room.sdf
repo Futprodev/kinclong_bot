@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="room">
+    <!-- keep it static so physics doesn’t drop it -->
+    <static>true</static>
+
+    <link name="link">
+      <!-- visual -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+           <uri>model://room/meshes/room.dae</uri>
+
+          </mesh>
+        </geometry>
+      </visual>
+      <!-- collision (use same mesh or a simplified one) -->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://room/meshes/room.dae</uri>
+
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

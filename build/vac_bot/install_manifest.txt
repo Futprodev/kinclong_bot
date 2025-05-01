@@ -9,7 +9,11 @@
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/gazebo_control.xacro
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/rsp.launch.py
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/launch_sim.launch.py
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/room.sdf
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/model.config
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/meshes/room.dae
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/obstacle.world
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/room.world
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/empty.world
 /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/package_run_dependencies/vac_bot
 /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/parent_prefix_path/vac_bot
