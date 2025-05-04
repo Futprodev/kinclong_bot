@@ -1,0 +1,3 @@
+[submodule "m-explore-ros2"]
+	path = m-explore-ros2
+	url = https://github.com/MOGI-ROS/m-explore-ros2
