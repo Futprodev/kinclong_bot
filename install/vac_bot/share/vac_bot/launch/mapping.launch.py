@@ -8,10 +8,10 @@ from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
+    pkg_name = 'vac_bot'
+    pkg_share = get_package_share_directory(pkg_name)
 
-    pkg_name = get_package_share_directory(pkg_name)
-
-    gazebo_models_path, ignore_last_dir = os.path.split(pkg_name)
+    gazebo_models_path, ignore_last_dir = os.path.split(pkg_share)
     os.environ["GZ_SIM_RESOURCE_PATH"] += os.pathsep + gazebo_models_path
 
     # rviz_launch_arg = DeclareLaunchArgument(
@@ -44,7 +44,7 @@ def generate_launch_description():
     )
 
     slam_toolbox_params_path = os.path.join(
-        get_package_share_directory(pkg_name),
+        pkg_share,
         'config',
         'slam_toolbox_mapping.yaml'
     )
@@ -75,7 +75,11 @@ def generate_launch_description():
                 'slam_params_file': slam_toolbox_params_path,
         }.items()
     )
-
-    launchDescriptionObject = LaunchDescription()
-
-    return launchDescriptionObject
+    return LaunchDescription([
+        # rviz_launch_arg,
+        # rviz_config_arg,
+        sim_time_arg,
+        # rviz_node,
+        interactive_marker_twist_server_node,
+        slam_toolbox_launch,
+    ])

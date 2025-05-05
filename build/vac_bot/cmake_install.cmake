@@ -49,6 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot/launch"
     "/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot/models"
     "/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot/worlds"
+    "/home/maul/ws_kinclong_sim/vac_bot/src/vac_bot/maps"
     )
 endif()
 

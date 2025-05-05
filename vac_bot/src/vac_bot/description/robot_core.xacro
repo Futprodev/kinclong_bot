@@ -31,22 +31,33 @@
     <!-- BASE LINK -->
 
     <link name="base_link">
-        <visual>
+        <pose>0 0 0.1 0 0 0</pose>
+        
+        <xacro:inertial_cylinder mass="1.5" length="0.1" radius="0.2">
+            <origin xyz="0.0 0 0.0325" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+
+        <collision name="base_link_collision">
+            <origin xyz="0 0 0.0325"/>
+            <geometry>
+                <cylinder radius="0.2" length="0.1"/>
+            </geometry>
+        </collision>
+        
+        <visual name="base_link_visual">
             <origin xyz="0 0 0.0325"/>
             <geometry>
                 <cylinder radius="0.2" length="0.1"/>
             </geometry>
             <material name="white"/>
         </visual>
-        <collision>
-            <origin xyz="0 0 0.0325"/>
+
+        <collision name="front_caster_wheel_collision">
+            <origin xyz="0.15 0 -0.0025" rpy="0 0 0"/>
             <geometry>
-                <cylinder radius="0.2" length="0.1"/>
+                <sphere radius="0.03"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.5" length="0.1" radius="0.2">
-            <origin xyz="0 0 0.0325" rpy="0 0 0"/>
-        </xacro:inertial_cylinder>
 
         <visual name="front_caster_wheel_visual">
             <origin xyz="0.15 0 -0.0025" rpy="0 0 0"/>
@@ -55,9 +66,9 @@
             </geometry>
             <material name="black"/>
         </visual>
-        
-        <collision name="front_caster_wheel_collision">
-            <origin xyz="0.15 0 -0.0025" rpy="0 0 0"/>
+
+        <collision name="rear_caster_wheel_collision">
+            <origin xyz="-0.15 0 -0.0025" rpy="0 0 0"/>
             <geometry>
                 <sphere radius="0.03"/>
             </geometry>
@@ -70,13 +81,7 @@
             </geometry>
             <material name="black"/>
         </visual>
-        
-        <collision name="rear_caster_wheel_collision">
-            <origin xyz="-0.15 0 -0.0025" rpy="0 0 0"/>
-            <geometry>
-                <sphere radius="0.03"/>
-            </geometry>
-        </collision>
+
     </link>
     
     <!-- LEFT WHEEL LINK -->
@@ -84,10 +89,10 @@
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0.05 0.09 0" rpy="-${pi/2} 0 0" />
+        <origin xyz="0 0.09 0" rpy="-${pi/2} 0 0" />
         <axis xyz="0 0 1"/>
-        <limit effort="100" velocity="20.0"/>
-        <dynamics damping="2.0" friction="3.0"/>
+        <limit effort="100" velocity="10.0"/>
+        <dynamics damping="1.0" friction="1.0"/>
     </joint>
 
     <link name="left_wheel">
@@ -112,10 +117,10 @@
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0.05 -0.09 0" rpy="${pi/2} 0 0" />
+        <origin xyz="0 -0.09 0" rpy="${pi/2} 0 0" />
         <axis xyz="0 0 -1"/>
-        <limit effort="100" velocity="20.0"/>
-        <dynamics damping="2.0" friction="3.0"/>
+        <limit effort="100" velocity="10.0"/>
+        <dynamics damping="1.0" friction="1.0"/>
     </joint>
 
     <link name="right_wheel">

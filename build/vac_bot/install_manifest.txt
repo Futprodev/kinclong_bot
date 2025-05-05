@@ -1,5 +1,6 @@
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/slam_toolbox_localization.yaml
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/view_bot.rviz
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/amcl_localization.yaml
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/empty.yaml
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/navigation.yaml
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/config/slam_toolbox_mapping.yaml
@@ -21,6 +22,14 @@
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/obstacle.world
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/room.world
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/worlds/empty.world
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room2.pgm
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room2Seial.data
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room1Serial.posegraph
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room1.yaml
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room2Seial.posegraph
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room1.pgm
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room1Serial.data
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/maps/room2.yaml
 /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/package_run_dependencies/vac_bot
 /home/maul/ws_kinclong_sim/install/vac_bot/share/ament_index/resource_index/parent_prefix_path/vac_bot
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/environment/ament_prefix_path.sh

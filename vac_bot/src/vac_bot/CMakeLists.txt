@@ -33,7 +33,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch models worlds
+  DIRECTORY config description launch models worlds maps
   DESTINATION share/${PROJECT_NAME}
 )
 
