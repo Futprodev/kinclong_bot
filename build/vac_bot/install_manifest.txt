@@ -12,9 +12,12 @@
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/inertial_macros.xacro
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/description/gazebo_control.xacro
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/mapping.launch.py
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/nav_slam.launch.py
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/localization_slam_toolbox.launch.py
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/localization.launch.py
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/rsp.launch.py
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/launch_sim.launch.py
+/home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/launch/nav.launch.py
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/room.sdf
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/model.config
 /home/maul/ws_kinclong_sim/install/vac_bot/share/vac_bot/models/room/meshes/room2.dae

@@ -1,0 +1,50 @@
+[0.082s] Invoking command in '/home/maul/ws_kinclong_sim/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/multirobot_map_merge -- -j8 -l8
+[1.640s] [ 33%] Built target combine_grids
+[1.774s] [ 50%] Built target gtest
+[2.415s] [ 66%] Built target map_merge
+[2.521s] [ 83%] Built target gtest_main
+[2.567s] [100%] Built target test_merging_pipeline
+[2.579s] Invoked command in '/home/maul/ws_kinclong_sim/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_sim/build/multirobot_map_merge -- -j8 -l8
+[2.609s] Invoking command in '/home/maul/ws_kinclong_sim/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/multirobot_map_merge
+[2.634s] -- Install configuration: ""
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/include/map_merge/
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/include/map_merge//map_merge.h
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[2.634s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/config
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/lib/libcombine_grids.a
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[2.635s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[2.636s] -- Installing: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[2.636s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[2.637s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[2.637s] -- Up-to-date: /home/maul/ws_kinclong_sim/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[2.638s] Invoked command in '/home/maul/ws_kinclong_sim/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_sim/build/multirobot_map_merge
